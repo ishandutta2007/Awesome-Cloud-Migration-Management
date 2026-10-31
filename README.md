@@ -32,73 +32,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global cloud migration services and software ecosystem is estimated between **$300B to $400B+** (with specialized core software and orchestration tools accounting for ~$15B–$40B, expanding at a ~23–28% CAGR driven by generative AI infrastructure demands and hybrid cloud deployments). The market is **moderately fragmented yet tiered**: underlying migration hubs and hypervisor cutovers are concentrated around hyperscalers (AWS, Microsoft, Google), enterprise implementations are led by global systems integrators (GSIs), and specialized assessment, code refactoring, and multi-cloud mobility segments remain distributed across independent software vendors (ISVs).
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[AWS Transform](https://aws.amazon.com/transform/)** (formerly **AWS Migration Hub**)
-
-  **AI-powered migration and modernization service** that supersedes Migration Hub. **Migration Hub stopped accepting new customers on November 7, 2025**; AWS Transform launched in May 2025 and provides all Migration Hub capabilities with enhanced AI-driven automation, improved collaboration, and real-time analytics . Existing Migration Hub projects continue to function; new projects should start in AWS Transform. **Pricing**: Quote-only; consumption-based. **Free tier**: AWS Free Tier applies to some usage. **Best for**: AWS-centric organizations planning large-scale migrations—**note**: do not start new Migration Hub projects; use AWS Transform instead.
-
-
-
-- **[Azure Migrate](https://azure.microsoft.com/en-us/products/azure-migrate)**
-
-  **Unified migration platform** for discovering, assessing, and migrating workloads to Azure. **Free service** for discovery, assessment, and planning; partner tools may charge for execution . Supports servers (VMware, Hyper-V, physical), databases (SQL Server), web apps, virtual desktops, and large-scale offline data transfer via Azure Data Box. **Business case** feature estimates on-premises vs. Azure TCO and cash flow comparisons . **Pricing**: Free for assessment; pay for Azure resources consumed. **Free tier**: Yes, migration assessment is free. **Best for**: Microsoft-centric organizations wanting a single portal for the full migration journey—**trade-off**: execution tooling is Azure-specific.
-
-
-
-- **[Google Cloud Migration Center](https://cloud.google.com/migration-center)**
-
-  **Unified migration platform** for end-to-end migration from on-premises or other clouds to Google Cloud. Provides **cloud spend estimation**, **asset discovery**, and tools for various migration scenarios including **Migrate for VMs** and **Migrate to Containers** for application modernization . **Pricing**: Free for assessment and planning; pay for GCP resources. **Free tier**: $300 credits for new customers. **Best for**: GCP-centric organizations wanting integrated discovery, cost estimation, and migration execution.
-
-
-
-- **[RiverMeadow](https://www.rivermeadow.com/)**
-
-  **Workload mobility platform** for multi-cloud and private cloud migrations. Provides **pre-flight assurance** (readiness library, confidence scoring, remediation), **automation and migration extensions** for post-cutover operationalization, **post-flight validation** comparing migrated targets to source baselines, and **portfolio reporting** across migration programs . **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises needing governed, evidence-backed migration programs with readiness gates and UAT tracking.
-
-
-
-- **[Carbonite Migrate](https://www.carbonite.com/cloud-migration/)** (OpenText)
-
-  **Real-time replication-based migration** for physical, virtual, and cloud workloads with **minimal downtime** (minutes to seconds). Continuous replication keeps a live copy synchronized; cutover can be manual or automated . Supports Windows Server, RHEL, Oracle Linux, SUSE, CentOS, Ubuntu; VMware, Hyper-V, AWS, Azure, Google Cloud . **Pricing**: Quote-only; per-server licensing. **Free tier**: Trial available. **Best for**: organizations needing near-zero downtime cutovers for mission-critical workloads—**note**: CloudEndure Migrate was discontinued; AWS Application Migration Service is the AWS-native alternative.
-
-
-
-- **[Flexera One Cloud Migration Planning](https://www.flexera.com/solutions/cloud-cost/cloud-migration-planning)**
-
-  **Migration planning and cost assessment** within Flexera One. Provides **application dependency mapping**, **cloud cost comparisons** across providers, **workload placement** recommendations, and **migration strategy** (rehost, replatform, retire) based on business impact and technical fit . Gartner reviewers note the cost comparison is useful for informed decisions but the initial profile creation is time-consuming . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting cost-driven migration decisions and multi-cloud comparison—**trade-off**: reporting customization is limited per reviewers.
-
-
-
-- **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)**
-
-  **Application Resource Management (ARM)** with migration planning capabilities. Configures migration plans to AWS or Azure, selecting VMs, regions, and licensing profiles (BYOL, custom OS mapping) . Includes discount settings for RI/SP to model realistic costs. **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting to model migration costs with existing discount commitments—**note**: Turbonomic is primarily an optimization tool; migration planning is a secondary capability.
-
-
-
-- **[CAST Highlight](https://www.castsoftware.com/products/highlight)**
-
-  **Software intelligence platform** for application portfolio assessment. **Scans source code** (50+ languages) to identify **cloud blockers** (persistent file usage, COM components, etc.), **cloud maturity**, **open-source risks**, and **containerization readiness** . Provides **5R disposition recommendations**, migration wave planning, and effort estimates benchmarked against industry peers . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations with large application portfolios needing code-level migration assessment—**trade-off**: requires source code access; not a workload discovery tool for infrastructure.
-
-
-
-- **[Atlassian Cloud Migration Assistant](https://www.atlassian.com/)**
-
-  **Native migration tool** for moving Jira and Confluence from Data Center to Cloud. Orchestrates data migration via JCMA (Jira Cloud Migration Assistant); app data migration follows Jira data . **Pricing**: Included with Atlassian Cloud subscriptions. **Free tier**: Limited. **Best for**: Atlassian customers migrating to Cloud—**not** a general-purpose cloud migration tool.
-
-
+| Company / Product | Company Size (Market Cap / Valuation / Revenue) | Pricing (Specific Starting Tiers) | Free Tier / Trial Limits | Key Capabilities & Migration Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Migrate](https://azure.microsoft.com/en-us/products/azure-migrate)** (Microsoft) | ~$3.1T Market Cap (~$245B Ann. Rev.) | **Free core tool** (Discovery, assessment, & TCO planning are $0.00; target cloud infrastructure billed separately, e.g. Azure VMs from ~$0.0104/hr) | **Free forever**: Full discovery, dependency analysis, and assessment; includes $200 Azure credit for 30 days for target infra testing | Hyperscaler discovery and migration platform for VMware, Hyper-V, physical servers, and SQL databases to Azure. |
+| **[AWS Transform](https://aws.amazon.com/transform/)** (Amazon AWS) | ~$2.2T Market Cap (~$600B+ Ann. Rev.) | **$0.035 / active agent minute** for custom code modernization; assessments & workload agents are $0.00 platform fee; target infra billed at standard AWS rates | **Free tier**: 50,000 agent minutes/mo free for AWS-managed .NET transformations; free assessments and workload planning; $0 platform fee for MGN | Agentic AI-powered modernization and migration platform superseding AWS Migration Hub; automates code refactoring and workload migration. |
+| **[Google Cloud Migration Center](https://cloud.google.com/migration-center)** (Alphabet) | ~$2.1T Market Cap (~$350B Ann. Rev.) | **Free core tool** (Asset discovery, cost estimation, & planning are $0.00; target GCP compute billed separately, e.g. e2-micro instances) | **Free forever**: Full asset discovery, TCO assessment, & planning; includes 90-day free trial with $300 GCP credits for execution testing | Centralized discovery, assessment, and migration hub for lifting and modernizing workloads into Google Cloud. |
+| **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)** (IBM) | ~$215B Market Cap (~$62B Ann. Rev.) | **$37,000 / year** baseline subscription for up to 200 managed virtual servers (approx. ~$22–$25/VM/month) | **30-day free trial**: Full access for cloud and on-prem workload resource modeling and migration planning; no credit card required | Application Resource Management (ARM) providing multi-cloud migration planning, right-sizing, and reserved instance cost modeling. |
+| **[Atlassian Cloud Migration Assistant](https://www.atlassian.com/)** (Atlassian) | ~$52B Market Cap (~$5.2B Ann. Rev.) | **Free tool included** with Atlassian Cloud plans (Jira Cloud Standard starts at **$8.15 / user / month**) | **Free forever plan**: Up to 10 users and 2 GB storage; or **60-day to 12-month free Cloud Migration Trial** matching existing Data Center tier | Native migration utility (JCMA/CCMA) for migrating Jira, Confluence, and app data from on-premises Data Center to Atlassian Cloud. |
+| **[Carbonite Migrate](https://www.carbonite.com/cloud-migration/)** (OpenText) | ~$7.8B Market Cap (~$5.2B Ann. Rev.) | **$500 / server node** starting license (Standard 60-day migration window; volume pricing and multi-packs available) | **Proof of Concept / Eval**: Custom evaluation license provisioned by sales (typically 30 to 60-day validity window per target node) | Byte-level, real-time replication migration engine enabling near-zero downtime cutovers across physical, virtual, and multi-cloud environments. |
+| **[Flexera One Cloud Migration Planning](https://www.flexera.com/solutions/cloud-cost/cloud-migration-planning)** (Flexera / Thoma Bravo) | ~$2.8B Valuation (~$290M+ Ann. Rev.) | **$13,000 / year** starting annual scoped contract (FinOps modules scale at ~1–5% of managed cloud spend, or ~$50,000/yr for $1M spend) | **Custom Demo & Trial**: Guided sandbox and custom trial tenant access via sales request; no perpetual self-serve free tier | Workload placement, dependency mapping, multi-cloud cost modeling, and 6R strategy scoring. |
+| **[CAST Highlight](https://www.castsoftware.com/products/highlight)** (Bridgepoint Group) | ~$150M (€139M) Valuation (~$50M+ Ann. Rev.) | **$6,800 / year** for a single named application (Complete Insights); portfolio Cloud Insights edition starts at **$30,800 / year** | **14-day free trial**: Access to pre-loaded sample application portfolio and code scanning engine for cloud blocker detection | Static source code intelligence engine scanning 50+ languages for cloud migration blockers, container readiness, and 5R disposition. |
+| **[RiverMeadow](https://www.rivermeadow.com/)** | ~$50M–$100M Valuation (~$6M–$8M Ann. Rev.) | **$250 / workload instance** baseline migration fee (or bundled fixed-fee packages starting around ~$3,900 on AWS/Azure Marketplaces) | **Proof of Concept**: 30-day guided evaluation pilot with 5–10 workload migration entitlements upon sales consultation | Multi-cloud workload mobility and automated modernization platform providing pre-flight assurance, OS upgrades, and cutover automation. |
 
 ## Open-Source GitHub Projects
 
