@@ -1,145 +1,182 @@
-# Awesome-Cloud-Migration-Management
+<div align="center">
 
-# Awesome-Cloud-Migration-Management
+<img src="./assets/banner.svg" alt="Awesome Cloud Migration Management &amp; Modernization Banner" width="100%" />
 
-**Top Cloud Migration Management (Opensource) 🌟 Star if you like it! 🌟**
+# 🚀 Awesome Cloud Migration Management & Modernization ☁️
 
+**A curated index of enterprise SaaS platforms, open-source orchestration engines, 7Rs assessment frameworks, and workload mobility tools.**
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Migration-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cloud-Migration-Management?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Migration-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cloud-Migration-Management?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Migration-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Cloud-Migration-Management?style=flat-square&logo=github" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Migration-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+*Empowering cloud architects, DevOps engineers, and digital transformation leaders to discover on-premises assets, analyze application dependencies, score cloud readiness, and orchestrate cutovers with minimal downtime.*
 
-*Focused on Migration Assessment, Workload Mobility, Dependency Mapping & Open Migration Tooling*
+**🌟 Star this repository to support community curation! 🌟**
 
-**Last updated: October 2026**
+</div>
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Cloud Migration Management**. These tools enable organizations to discover on-premises workloads, assess cloud readiness, plan migration waves, and execute cutovers with minimal downtime—from fully managed hyperscaler migration hubs with AI-driven automation to open-source assessment frameworks and migration orchestration tools that give teams control over their migration lifecycle.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Migration Management Platforms](#-saas--hosted-migration-management-platforms)
+- [💻 Open-Source Migration Tools & Frameworks](#-open-source-migration-tools--frameworks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
-**Examples** include AWS Migration Hub (now AWS Transform), Azure Migrate, Google Cloud Migration Center, RiverMeadow, Carbonite Migrate, Flexera One, Turbonomic, CAST Highlight, and Atlassian Cloud Migration Assistant (the category leaders in commercial space).
+The global cloud migration services and software ecosystem is estimated between **$300B to $400B+** (with specialized core software, automated discovery, and orchestration tools accounting for ~$15B–$40B, expanding at a ~23–28% CAGR driven by generative AI infrastructure demands, data center consolidation, and hybrid-cloud deployments). 
 
+The market structure is **moderately fragmented yet tiered**:
+1. **Hyperscale Core Enablers:** Infrastructure vendors (Microsoft Azure, AWS, Google Cloud) concentrate the underlying migration orchestration, hypervisor replication, and landing zone automation within their proprietary hubs.
+2. **Global Systems Integrators (GSIs):** Tier-1 enterprise transformation programs, legacy ERP refactoring, and complex re-platforming engagements are driven by global consulting partners.
+3. **Independent Software Vendors (ISVs) & Open-Source Tooling:** Highly active niche players provide vendor-neutral discovery, code static analysis (blocker detection), continuous replication, FinOps cost forecasting, and multi-cloud workload mobility.
 
+---
 
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted migration assessment, workload planning, and open migration infrastructure. **Critical note**: The open-source cloud migration landscape is nascent—**Cloud Migration MCP Server** is the most structured open-source assessment and wave-planning tool, but it is a CLI/MCP utility rather than a full platform. **CloudHop** and **Skyferry** address data movement rather than migration management. No open-source project matches Azure Migrate's end-to-end discovery-to-execution pipeline or Carbonite Migrate's block-level replication at scale.
+## 🏢 SaaS & Hosted Migration Management Platforms
 
+*Sorted in descending order by company valuation / market capitalization.*
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global cloud migration services and software ecosystem is estimated between **$300B to $400B+** (with specialized core software and orchestration tools accounting for ~$15B–$40B, expanding at a ~23–28% CAGR driven by generative AI infrastructure demands and hybrid cloud deployments). The market is **moderately fragmented yet tiered**: underlying migration hubs and hypervisor cutovers are concentrated around hyperscalers (AWS, Microsoft, Google), enterprise implementations are led by global systems integrators (GSIs), and specialized assessment, code refactoring, and multi-cloud mobility segments remain distributed across independent software vendors (ISVs).
-
-## SaaS/Hosted Platforms
-
-| Company / Product | Company Size (Market Cap / Valuation / Revenue) | Pricing (Specific Starting Tiers) | Free Tier / Trial Limits | Key Capabilities & Migration Focus |
+| Company / Platform | Company Scale (Valuation / Market Cap / Rev) | Specific Pricing & Starting Tiers | Free Tier & Free Trial Limits | Migration Focus & Key Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Azure Migrate](https://azure.microsoft.com/en-us/products/azure-migrate)** (Microsoft) | ~$3.1T Market Cap (~$245B Ann. Rev.) | **Free core tool** (Discovery, assessment, & TCO planning are $0.00; target cloud infrastructure billed separately, e.g. Azure VMs from ~$0.0104/hr) | **Free forever**: Full discovery, dependency analysis, and assessment; includes $200 Azure credit for 30 days for target infra testing | Hyperscaler discovery and migration platform for VMware, Hyper-V, physical servers, and SQL databases to Azure. |
-| **[AWS Transform](https://aws.amazon.com/transform/)** (Amazon AWS) | ~$2.2T Market Cap (~$600B+ Ann. Rev.) | **$0.035 / active agent minute** for custom code modernization; assessments & workload agents are $0.00 platform fee; target infra billed at standard AWS rates | **Free tier**: 50,000 agent minutes/mo free for AWS-managed .NET transformations; free assessments and workload planning; $0 platform fee for MGN | Agentic AI-powered modernization and migration platform superseding AWS Migration Hub; automates code refactoring and workload migration. |
-| **[Google Cloud Migration Center](https://cloud.google.com/migration-center)** (Alphabet) | ~$2.1T Market Cap (~$350B Ann. Rev.) | **Free core tool** (Asset discovery, cost estimation, & planning are $0.00; target GCP compute billed separately, e.g. e2-micro instances) | **Free forever**: Full asset discovery, TCO assessment, & planning; includes 90-day free trial with $300 GCP credits for execution testing | Centralized discovery, assessment, and migration hub for lifting and modernizing workloads into Google Cloud. |
-| **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)** (IBM) | ~$215B Market Cap (~$62B Ann. Rev.) | **$37,000 / year** baseline subscription for up to 200 managed virtual servers (approx. ~$22–$25/VM/month) | **30-day free trial**: Full access for cloud and on-prem workload resource modeling and migration planning; no credit card required | Application Resource Management (ARM) providing multi-cloud migration planning, right-sizing, and reserved instance cost modeling. |
-| **[Atlassian Cloud Migration Assistant](https://www.atlassian.com/)** (Atlassian) | ~$52B Market Cap (~$5.2B Ann. Rev.) | **Free tool included** with Atlassian Cloud plans (Jira Cloud Standard starts at **$8.15 / user / month**) | **Free forever plan**: Up to 10 users and 2 GB storage; or **60-day to 12-month free Cloud Migration Trial** matching existing Data Center tier | Native migration utility (JCMA/CCMA) for migrating Jira, Confluence, and app data from on-premises Data Center to Atlassian Cloud. |
+| **[Azure Migrate](https://azure.microsoft.com/en-us/products/azure-migrate)** (Microsoft) | ~$3.1T Market Cap (~$245B Ann. Rev.) | **Free core platform** ($0.00 for discovery, assessments, & TCO planning; pay standard rates for target Azure resources consumed, e.g. Azure VMs from ~$0.0104/hr) | **Free forever**: Full asset discovery, agentless dependency analysis, and TCO business case modeling; includes $200 Azure credits (30 days) for cutover validation | Hyperscaler discovery and migration platform for VMware, Hyper-V, physical servers, SQL databases, and web apps to Azure. |
+| **[AWS Transform](https://aws.amazon.com/transform/)** (Amazon AWS) | ~$2.2T Market Cap (~$600B+ Ann. Rev.) | **$0.035 / active agent minute** for custom code modernization; migration assessments & workload agents are $0.00; target infra billed at standard AWS rates | **Free tier**: 50,000 agent minutes/month free for AWS-managed .NET transformations; free assessments and workload planning; $0 platform fee for AWS MGN | Agentic AI-powered modernization and migration platform superseding AWS Migration Hub; automates code refactoring, mainframe modernization, and wave cutovers. |
+| **[Google Cloud Migration Center](https://cloud.google.com/migration-center)** (Alphabet) | ~$2.1T Market Cap (~$350B Ann. Rev.) | **Free core platform** ($0.00 for discovery, TCO assessment, and migration planning; target GCP compute billed per second, e.g. e2-micro instances) | **Free forever**: Complete discovery and migration wave planning; includes 90-day free trial with $300 in Google Cloud credits for sandbox cutover testing | Centralized discovery, assessment, and migration hub for lifting and modernizing workloads into Google Cloud Platform. |
+| **[IBM Turbonomic](https://www.ibm.com/products/turbonomic)** (IBM) | ~$215B Market Cap (~$62B Ann. Rev.) | **$37,000 / year** baseline subscription for up to 200 managed virtual servers (approx. ~$22–$25/VM/month) | **30-day free trial**: Full access for cloud and on-prem workload resource modeling and migration planning; no credit card required | Application Resource Management (ARM) providing multi-cloud migration planning, right-sizing, and reserved instance / savings plan cost modeling. |
+| **[Atlassian Cloud Migration Assistant](https://www.atlassian.com/)** (Atlassian) | ~$52B Market Cap (~$5.2B Ann. Rev.) | **Free tool included** with Atlassian Cloud plans (Jira Cloud Standard starting at **$8.15 / user / month**) | **Free forever plan**: Up to 10 users and 2 GB storage; or **60-day to 12-month free Cloud Migration Trial** matching existing Data Center tier | Native migration utility (JCMA/CCMA) for migrating Jira, Confluence, and app data from on-premises Data Center to Atlassian Cloud. |
 | **[Carbonite Migrate](https://www.carbonite.com/cloud-migration/)** (OpenText) | ~$7.8B Market Cap (~$5.2B Ann. Rev.) | **$500 / server node** starting license (Standard 60-day migration window; volume pricing and multi-packs available) | **Proof of Concept / Eval**: Custom evaluation license provisioned by sales (typically 30 to 60-day validity window per target node) | Byte-level, real-time replication migration engine enabling near-zero downtime cutovers across physical, virtual, and multi-cloud environments. |
 | **[Flexera One Cloud Migration Planning](https://www.flexera.com/solutions/cloud-cost/cloud-migration-planning)** (Flexera / Thoma Bravo) | ~$2.8B Valuation (~$290M+ Ann. Rev.) | **$13,000 / year** starting annual scoped contract (FinOps modules scale at ~1–5% of managed cloud spend, or ~$50,000/yr for $1M spend) | **Custom Demo & Trial**: Guided sandbox and custom trial tenant access via sales request; no perpetual self-serve free tier | Workload placement, dependency mapping, multi-cloud cost modeling, and 6R strategy scoring. |
 | **[CAST Highlight](https://www.castsoftware.com/products/highlight)** (Bridgepoint Group) | ~$150M (€139M) Valuation (~$50M+ Ann. Rev.) | **$6,800 / year** for a single named application (Complete Insights); portfolio Cloud Insights edition starts at **$30,800 / year** | **14-day free trial**: Access to pre-loaded sample application portfolio and code scanning engine for cloud blocker detection | Static source code intelligence engine scanning 50+ languages for cloud migration blockers, container readiness, and 5R disposition. |
 | **[RiverMeadow](https://www.rivermeadow.com/)** | ~$50M–$100M Valuation (~$6M–$8M Ann. Rev.) | **$250 / workload instance** baseline migration fee (or bundled fixed-fee packages starting around ~$3,900 on AWS/Azure Marketplaces) | **Proof of Concept**: 30-day guided evaluation pilot with 5–10 workload migration entitlements upon sales consultation | Multi-cloud workload mobility and automated modernization platform providing pre-flight assurance, OS upgrades, and cutover automation. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source Migration Tools & Frameworks
 
+*Sorted in descending order by GitHub stargazers count.*
 
-- **[Cloud Migration MCP Server](https://github.com/chrishorne74/cloud-migration-mcp)**
+### 1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
+- **License**: MIT
+- **Category**: Multi-Cloud Data Migration & Storage Sync
+- **Overview**: Known as the *"rsync for cloud storage"*, Rclone is the definitive open-source command-line utility to sync, migrate, and copy files across 70+ cloud storage backends (AWS S3, Google Cloud Storage, Azure Blob, OneDrive, Backblaze B2, SFTP, and on-premises storage).
+- **Key Features**: Multi-threaded transfers, MD5/SHA-1 cryptographic integrity checks, bandwidth scheduling, chunked multipart uploads, and bidirectional synchronization.
 
-  **MCP server for cloud migration assessment and planning** (license per repo) — **the most structured open-source tool for migration strategy and wave planning** found in this research . **Features**: **7 Rs Strategy Engine**—recommends Rehost, Replatform, Repurchase, Refactor, Retire, Retain, or Relocate based on workload attributes. **Migration Assessment**—scores workloads 0–100 across 10 weighted criteria (business criticality, technical complexity, vendor support, cloud readiness, cost, age, SaaS availability, data sensitivity, documentation, compliance). **30+ built-in guardrails** across Dependency, Security, Compliance, Data, Architecture, Operations, and Cost categories—editable at runtime. **Candidate Scoring & Ranking**—rank up to 50 workloads. **Wave Planning**—group workloads into sequenced migration waves respecting dependencies. **Cost Estimation**—ROM (±50%) with cloud annual cost, one-time migration cost, 1/3-year savings, and ROI break-even. **Draw.io Diagrams**—generates migration architecture diagrams using native AWS/Azure/GCP shapes . **Tech stack**: MCP server. **Deploy**: Self-hosted MCP server; accessible via Claude Desktop, Cursor, or other MCP clients. **Trade-off**: **Assessment and planning only**—does not execute migrations or connect to cloud APIs for discovery. Requires manual workload input. **Best for**: architects and migration leads wanting structured 7R assessment, guardrail checking, and wave planning—especially those already using AI assistants via MCP.
+### 2. **[Velero](https://github.com/velero-io/velero)** [![GitHub stars](https://img.shields.io/github/stars/velero-io/velero?style=social&color=white)](https://github.com/velero-io/velero/stargazers)
+- **License**: Apache-2.0
+- **Category**: Kubernetes Cluster-to-Cluster & Multi-Cloud Migration
+- **Overview**: The industry standard for migrating Kubernetes application state, persistent volumes, and cluster resources between clouds, data centers, and on-premises clusters.
+- **Key Features**: Point-in-time snapshotting, storage provider plugins (AWS EBS, Azure Managed Disks, Google Persistent Disks), scheduled backup sets, and cross-cluster resource filtering and replication.
 
+### 3. **[KubeVirt](https://github.com/kubevirt/kubevirt)** [![GitHub stars](https://img.shields.io/github/stars/kubevirt/kubevirt?style=social&color=white)](https://github.com/kubevirt/kubevirt/stargazers)
+- **License**: Apache-2.0
+- **Category**: Workload Re-platforming (VM to Cloud-Native)
+- **Overview**: Cloud-native virtualization add-on for Kubernetes that allows organizations migrating away from legacy VMware/Hyper-V hypervisors to run and manage traditional virtual machines side-by-side with containers.
+- **Key Features**: Declarative VM lifecycle management, live migration between nodes, integration with Container Network Interface (CNI) and Container Storage Interface (CSI).
 
+### 4. **[CloudQuery](https://github.com/cloudquery/cloudquery)** [![GitHub stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers)
+- **License**: Mozilla Public License 2.0 (Core / Open Source plugins)
+- **Category**: Pre-Migration Asset Discovery & Infrastructure Assessment
+- **Overview**: High-performance open-source ELT data integration engine that extracts configuration state from cloud providers (AWS, Azure, GCP), VMware, and Kubernetes into SQL databases (PostgreSQL, Snowflake, BigQuery) for asset auditing and migration readiness queries.
+- **Key Features**: 300+ plugins, asset inventory generation, compliance assessment queries, and dependency auditing.
 
-- **[CloudHop](https://github.com/ozymandiashh/cloudhop)**
+### 5. **[Cloudbase Coriolis](https://github.com/cloudbase/coriolis)** [![GitHub stars](https://img.shields.io/github/stars/cloudbase/coriolis?style=social&color=white)](https://github.com/cloudbase/coriolis/stargazers)
+- **License**: Apache-2.0
+- **Category**: Automated Lift-and-Shift VM Migration Engine
+- **Overview**: Open-source migration-as-a-service orchestration engine specifically engineered to migrate running VM workloads between virtualization platforms and clouds (VMware vSphere, OpenStack, AWS, Azure, GCP, and Oracle Cloud).
+- **Key Features**: Incremental disk replication, guest OS reconfiguration (driver injection, network setup), minimal downtime cutover, and automated replica staging.
 
-  **Free, open-source GUI for cloud-to-cloud file transfers** (MIT) — **the most user-friendly open-source tool for bulk data migration between cloud storage providers** . **Features**: **Wraps rclone** in a visual interface for 70+ cloud storage providers; live dashboard with speed charts, ETA, and file counts; pause, resume, and schedule transfers; copy, sync, or two-way bisync modes; **files route directly between clouds through your local connection**—never through external servers; no accounts, no tracking . **Tech stack**: Python, pywebview, vanilla JS, rclone. **Deploy**: `pip install cloudhop`; native installers for Mac/Windows; Docker . **Trade-off**: **File transfer only**—not workload migration, infrastructure assessment, or dependency mapping. Local machine must stay online during transfers. **Best for**: teams needing to move data between cloud storage providers (OneDrive to Google Drive, S3 to Azure Blob) without paid per-GB services or rclone CLI complexity.
+### 6. **[Cloud Migration Factory on AWS](https://github.com/aws-solutions/cloud-migration-factory-on-aws)** [![GitHub stars](https://img.shields.io/github/stars/aws-solutions/cloud-migration-factory-on-aws?style=social&color=white)](https://github.com/aws-solutions/cloud-migration-factory-on-aws/stargazers)
+- **License**: Apache-2.0
+- **Category**: Large-Scale Wave Planning & Migration Orchestration
+- **Overview**: An open-source, vendor-supported orchestration framework for medium-to-large enterprise migrations to AWS. Automates wave planning, server replication tracking, and cutover automation using AWS Application Migration Service (MGN).
+- **Key Features**: Web management console, automated pre-requisite checking, automated multi-server agent installation, wave sequencing, and post-launch validation scripts.
 
+### 7. **[Crane](https://github.com/migtools/crane)** [![GitHub stars](https://img.shields.io/github/stars/migtools/crane?style=social&color=white)](https://github.com/migtools/crane/stargazers)
+- **License**: Apache-2.0
+- **Category**: Kubernetes Workload & Namespace Migration
+- **Overview**: Designed by the Konveyor community to migrate Kubernetes and OpenShift workloads between clusters, handling persistent volume sync and manifest transformations.
+- **Key Features**: Export, transform, and apply pipelines for Kubernetes resources; plugin system for mutating cluster-specific specs during transit.
 
+### 8. **[xmigrate](https://github.com/xmigrate/xmigrate)** [![GitHub stars](https://img.shields.io/github/stars/xmigrate/xmigrate?style=social&color=white)](https://github.com/xmigrate/xmigrate/stargazers)
+- **License**: Apache-2.0
+- **Category**: Open Infrastructure Migration Utility
+- **Overview**: Python-based tool tailored for migrating on-premises workloads, virtual machines, and disk images directly to cloud infrastructure targets.
+- **Key Features**: Blueprint mapping, agent-based discovery, and multi-disk synchronization.
 
-- **[Skyferry](https://github.com/cubetribe/skyferry)**
+### 9. **[Konveyor Tackle](https://github.com/konveyor/tackle2-operator)** [![GitHub stars](https://img.shields.io/github/stars/konveyor/tackle2-operator?style=social&color=white)](https://github.com/konveyor/tackle2-operator/stargazers)
+- **License**: Apache-2.0
+- **Category**: Application Portfolio Assessment & Modernization Toolkit
+- **Overview**: An open-source application modernization and migration framework sponsored by Red Hat and the CNCF. Enables enterprises to assess entire application portfolios for container readiness and automated code refactoring.
+- **Key Features**: 7Rs decision framework, static code analysis for migration blockers, automated dependency identification, and wave management.
 
-  **Patient, verified, resumable Google Drive migration tool** (license per repo) — **the most rigorous open-source tool for large-scale Drive-to-Drive migrations** . **Features**: **Unit-based migration**—folders split above size threshold; state machine from PLANNED through DONE with side states for FAILED and NEEDS_ATTENTION; **MD5 verification** at local and remote stages; **crash-proof** with resumable downloads and uploads; **push alerts** via ntfy and healthchecks.io; bandwidth scheduling (e.g., `08:00,20M 23:00,off`); append-only audit trail; systemd service for unattended operation . **Tech stack**: Python, rclone, Linux. **Deploy**: Dedicated Linux server with buffer disk; systemd user service. **Trade-off**: **Google Drive-specific**—not a general cloud migration tool. Requires a Linux server with sufficient buffer disk. **Best for**: organizations migrating large Google Drive estates (hundreds of GB to TB) needing verification and resumability—especially when network reliability is a concern.
+### 10. **[Cloud Migration MCP Server](https://github.com/chrishorne74/cloud-migration-mcp)** [![GitHub stars](https://img.shields.io/github/stars/chrishorne74/cloud-migration-mcp?style=social&color=white)](https://github.com/chrishorne74/cloud-migration-mcp/stargazers)
+- **License**: MIT
+- **Category**: AI-Assisted 7Rs Assessment & Migration Planning
+- **Overview**: Model Context Protocol (MCP) server enabling AI coding assistants (Claude Desktop, Cursor) to run structured 7Rs cloud migration strategy calculations, compliance guardrail checking, candidate scoring, and wave planning.
+- **Key Features**: 7Rs strategy engine, 10-criteria readiness scoring (0–100), 30+ guardrails, ROM cost estimation (±50%), and automated Draw.io architecture diagram generation.
 
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **xmigrate** — Cloud migration tool for on-premises data and infrastructure (Python, ~43 stars). **Note**: Minimal documentation available; last activity ~11 months ago per metadata . **Best for**: exploration only—not production-ready without significant validation.
-
-- **Accenture SWAO** — AI-accelerated cloud workload compliance assessment (Community Edition binaries). Scans code for sovereign risk factors, compliance mapping (GDPR/HIPAA/PCI), and migration recommendations via CLI, TUI, or MCP server . **Note**: **Source not yet published**—binaries only; licensed tiers for full features. **Best for**: organizations needing compliance-focused workload assessment, not general migration management.
-
-
-
-**Frameworks for building custom systems**: Combine **Cloud Migration MCP Server** for 7R assessment and wave planning with **CloudHop** for bulk data transfer between storage providers and **Skyferry** for verified large-scale Drive migrations—creating a lightweight open-source migration toolkit. **None of these match Azure Migrate's end-to-end discovery-to-execution pipeline or Carbonite Migrate's block-level replication**; those require commercial platforms or hyperscaler tooling.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Cloud migration platforms handling infrastructure credentials and data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls during migration.
-
-- **The "hyperscaler migration hub" vs. "workload mobility" vs. "assessment/planning" vs. "data transfer" distinction is critical.** **AWS Transform, Azure Migrate, and Google Cloud Migration Center** are **hyperscaler hubs**—they provide discovery, assessment, and execution within their cloud ecosystem. **RiverMeadow and Carbonite Migrate** are **workload mobility**—they replicate and cut over servers with minimal downtime. **Flexera One and CAST Highlight** are **assessment/planning**—they analyze cost and code readiness but do not execute migrations. **Cloud Migration MCP Server** is **assessment/planning**—it scores workloads and plans waves but does not migrate. **CloudHop and Skyferry** are **data transfer**—they move files between storage providers, not workloads. **Choose based on whether you need to decide, plan, migrate, or move data.**
-
-- **AWS Migration Hub is closed to new customers.** Do not start new projects there—**AWS Transform** is the successor with AI-driven automation and all Migration Hub capabilities . Existing projects continue to function, but new planning should use Transform.
-
-- **Azure Migrate's assessment is free**—discovery, readiness assessment, cost estimation, and dependency analysis cost nothing; you pay only for Azure resources consumed . **This is the most generous assessment offering among hyperscalers** and worth evaluating even if you ultimately migrate elsewhere.
-
-- **CloudEndure Migrate is discontinued.** AWS Application Migration Service (MGN) is the recommended lift-and-shift service . **Do not evaluate CloudEndure as a current option**—references in older documentation are outdated.
-
-- **Cloud Migration MCP Server is the most structured open-source migration planning tool**—it codifies the 7 Rs, guardrails, and wave planning in a way that can be invoked by AI assistants . **The trade-off**: it is assessment and planning only—no discovery, no execution. **For teams wanting a rigorous planning framework they can run locally, it is the best open-source option.**
-
-- **CloudHop and Skyferry solve different problems.** CloudHop is for **cloud-to-cloud file transfers** (OneDrive to Google Drive) with a GUI. Skyferry is for **Google Drive-to-Drive migrations** with verification and resumability . **Neither is a workload migration tool.**
-
-- **Pricing opacity varies.** Azure Migrate assessment is free . Google Cloud Migration Center is free for assessment with $300 credits. RiverMeadow, Carbonite, Flexera, Turbonomic, and CAST Highlight require sales contact. AWS Transform is consumption-based. **Validate with direct vendor conversations against your migration scope and downtime tolerance.**
-
-- Self-hosted open-source solutions require proper setup, credentials for cloud storage APIs, and ongoing maintenance. **Migration tools handle production data and infrastructure credentials**—ensure your deployment meets your organization's security standards before initiating cutovers.
-
-
+### 11. **[Skyferry](https://github.com/cubetribe/skyferry)** [![GitHub stars](https://img.shields.io/github/stars/cubetribe/skyferry?style=social&color=white)](https://github.com/cubetribe/skyferry/stargazers)
+- **License**: MIT
+- **Category**: Enterprise File & Drive Migration
+- **Overview**: Rigorous, resumable Google Drive-to-Drive and bulk file migration utility built for high data volumes with zero data loss.
+- **Key Features**: MD5 hash validation, split unit migration, state machine tracking, crash-resilient transfers, and webhook alerting.
 
 ---
 
+## 🤝 How to Contribute
 
+We welcome community contributions from cloud architects, engineers, and researchers!
 
-**Made for migration architects, cloud engineers, and organizations building transparent cloud migration management solutions.**
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-migration-tool`).
+3. 📝 **Add or update entries** in `README.md` keeping formatting clean, factual, and backed by official links:
+   - For SaaS tools: include starting tier pricing, free limits, and company scale.
+   - For Open-Source tools: include GitHub repository link, star badge, license, and primary capabilities.
+4. 🚀 **Commit your changes** (`git commit -m "feat: add NewMigrationTool"`).
+5. 📤 **Push to your branch** (`git push origin add-migration-tool`).
+6. 📬 **Submit a Pull Request** with a brief summary of the project.
 
-Let's make Cloud Migration Management more open, data-driven, and cutover-safe.
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated cloud migration index helpful for your infrastructure planning, modernization projects, or research:
+
+- 🌟 **Star the repository** to boost visibility and help others discover these resources.
+- 🍴 **Fork the repo** to save it for your team's architecture playbook.
+- 📢 **Share with your colleagues** on LinkedIn, X/Twitter, and engineering communities.
+- ☕ **Support continuous maintenance & open research**: Consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your support helps keep these pricing benchmarks and open-source ecosystems up-to-date!
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20on%20GitHub-%E2%99%A5-ff69b4?style=for-the-badge&logo=github" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Cloud-Migration-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Cloud-Migration-Management&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This curated repository is community-maintained for informational and educational purposes. Mentions do not constitute commercial endorsements.
+- Workload migration tools interact with mission-critical systems and confidential enterprise data. Always validate network security boundaries, IAM permissions, data sovereignty mandates (GDPR/HIPAA), and backup fallbacks before initiating cutovers.
+- Cloud pricing, free tier thresholds, and marketplace listings fluctuate frequently; verify exact pricing cards with respective cloud providers and software vendors prior to production rollouts.
