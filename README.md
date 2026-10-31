@@ -69,67 +69,67 @@ The market structure is **moderately fragmented yet tiered**:
 
 *Sorted in descending order by GitHub stargazers count.*
 
-### 1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
+### 1. **[Rclone](https://github.com/rclone/rclone)** [![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
 - **License**: MIT
 - **Category**: Multi-Cloud Data Migration & Storage Sync
 - **Overview**: Known as the *"rsync for cloud storage"*, Rclone is the definitive open-source command-line utility to sync, migrate, and copy files across 70+ cloud storage backends (AWS S3, Google Cloud Storage, Azure Blob, OneDrive, Backblaze B2, SFTP, and on-premises storage).
 - **Key Features**: Multi-threaded transfers, MD5/SHA-1 cryptographic integrity checks, bandwidth scheduling, chunked multipart uploads, and bidirectional synchronization.
 
-### 2. **[Velero](https://github.com/velero-io/velero)** [![GitHub stars](https://img.shields.io/github/stars/velero-io/velero?style=social&color=white)](https://github.com/velero-io/velero/stargazers)
+### 2. **[Velero](https://github.com/velero-io/velero)** [![GitHub_Stars](https://img.shields.io/github/stars/velero-io/velero?style=social&color=white)](https://github.com/velero-io/velero/stargazers)
 - **License**: Apache-2.0
 - **Category**: Kubernetes Cluster-to-Cluster & Multi-Cloud Migration
 - **Overview**: The industry standard for migrating Kubernetes application state, persistent volumes, and cluster resources between clouds, data centers, and on-premises clusters.
 - **Key Features**: Point-in-time snapshotting, storage provider plugins (AWS EBS, Azure Managed Disks, Google Persistent Disks), scheduled backup sets, and cross-cluster resource filtering and replication.
 
-### 3. **[KubeVirt](https://github.com/kubevirt/kubevirt)** [![GitHub stars](https://img.shields.io/github/stars/kubevirt/kubevirt?style=social&color=white)](https://github.com/kubevirt/kubevirt/stargazers)
+### 3. **[KubeVirt](https://github.com/kubevirt/kubevirt)** [![GitHub_Stars](https://img.shields.io/github/stars/kubevirt/kubevirt?style=social&color=white)](https://github.com/kubevirt/kubevirt/stargazers)
 - **License**: Apache-2.0
 - **Category**: Workload Re-platforming (VM to Cloud-Native)
 - **Overview**: Cloud-native virtualization add-on for Kubernetes that allows organizations migrating away from legacy VMware/Hyper-V hypervisors to run and manage traditional virtual machines side-by-side with containers.
 - **Key Features**: Declarative VM lifecycle management, live migration between nodes, integration with Container Network Interface (CNI) and Container Storage Interface (CSI).
 
-### 4. **[CloudQuery](https://github.com/cloudquery/cloudquery)** [![GitHub stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers)
+### 4. **[CloudQuery](https://github.com/cloudquery/cloudquery)** [![GitHub_Stars](https://img.shields.io/github/stars/cloudquery/cloudquery?style=social&color=white)](https://github.com/cloudquery/cloudquery/stargazers)
 - **License**: Mozilla Public License 2.0 (Core / Open Source plugins)
 - **Category**: Pre-Migration Asset Discovery & Infrastructure Assessment
 - **Overview**: High-performance open-source ELT data integration engine that extracts configuration state from cloud providers (AWS, Azure, GCP), VMware, and Kubernetes into SQL databases (PostgreSQL, Snowflake, BigQuery) for asset auditing and migration readiness queries.
 - **Key Features**: 300+ plugins, asset inventory generation, compliance assessment queries, and dependency auditing.
 
-### 5. **[Cloudbase Coriolis](https://github.com/cloudbase/coriolis)** [![GitHub stars](https://img.shields.io/github/stars/cloudbase/coriolis?style=social&color=white)](https://github.com/cloudbase/coriolis/stargazers)
+### 5. **[Cloudbase Coriolis](https://github.com/cloudbase/coriolis)** [![GitHub_Stars](https://img.shields.io/github/stars/cloudbase/coriolis?style=social&color=white)](https://github.com/cloudbase/coriolis/stargazers)
 - **License**: Apache-2.0
 - **Category**: Automated Lift-and-Shift VM Migration Engine
 - **Overview**: Open-source migration-as-a-service orchestration engine specifically engineered to migrate running VM workloads between virtualization platforms and clouds (VMware vSphere, OpenStack, AWS, Azure, GCP, and Oracle Cloud).
 - **Key Features**: Incremental disk replication, guest OS reconfiguration (driver injection, network setup), minimal downtime cutover, and automated replica staging.
 
-### 6. **[Cloud Migration Factory on AWS](https://github.com/aws-solutions/cloud-migration-factory-on-aws)** [![GitHub stars](https://img.shields.io/github/stars/aws-solutions/cloud-migration-factory-on-aws?style=social&color=white)](https://github.com/aws-solutions/cloud-migration-factory-on-aws/stargazers)
+### 6. **[Cloud Migration Factory on AWS](https://github.com/aws-solutions/cloud-migration-factory-on-aws)** [![GitHub_Stars](https://img.shields.io/github/stars/aws-solutions/cloud-migration-factory-on-aws?style=social&color=white)](https://github.com/aws-solutions/cloud-migration-factory-on-aws/stargazers)
 - **License**: Apache-2.0
 - **Category**: Large-Scale Wave Planning & Migration Orchestration
 - **Overview**: An open-source, vendor-supported orchestration framework for medium-to-large enterprise migrations to AWS. Automates wave planning, server replication tracking, and cutover automation using AWS Application Migration Service (MGN).
 - **Key Features**: Web management console, automated pre-requisite checking, automated multi-server agent installation, wave sequencing, and post-launch validation scripts.
 
-### 7. **[Crane](https://github.com/migtools/crane)** [![GitHub stars](https://img.shields.io/github/stars/migtools/crane?style=social&color=white)](https://github.com/migtools/crane/stargazers)
+### 7. **[Crane](https://github.com/migtools/crane)** [![GitHub_Stars](https://img.shields.io/github/stars/migtools/crane?style=social&color=white)](https://github.com/migtools/crane/stargazers)
 - **License**: Apache-2.0
 - **Category**: Kubernetes Workload & Namespace Migration
 - **Overview**: Designed by the Konveyor community to migrate Kubernetes and OpenShift workloads between clusters, handling persistent volume sync and manifest transformations.
 - **Key Features**: Export, transform, and apply pipelines for Kubernetes resources; plugin system for mutating cluster-specific specs during transit.
 
-### 8. **[xmigrate](https://github.com/xmigrate/xmigrate)** [![GitHub stars](https://img.shields.io/github/stars/xmigrate/xmigrate?style=social&color=white)](https://github.com/xmigrate/xmigrate/stargazers)
+### 8. **[xmigrate](https://github.com/xmigrate/xmigrate)** [![GitHub_Stars](https://img.shields.io/github/stars/xmigrate/xmigrate?style=social&color=white)](https://github.com/xmigrate/xmigrate/stargazers)
 - **License**: Apache-2.0
 - **Category**: Open Infrastructure Migration Utility
 - **Overview**: Python-based tool tailored for migrating on-premises workloads, virtual machines, and disk images directly to cloud infrastructure targets.
 - **Key Features**: Blueprint mapping, agent-based discovery, and multi-disk synchronization.
 
-### 9. **[Konveyor Tackle](https://github.com/konveyor/tackle2-operator)** [![GitHub stars](https://img.shields.io/github/stars/konveyor/tackle2-operator?style=social&color=white)](https://github.com/konveyor/tackle2-operator/stargazers)
+### 9. **[Konveyor Tackle](https://github.com/konveyor/tackle2-operator)** [![GitHub_Stars](https://img.shields.io/github/stars/konveyor/tackle2-operator?style=social&color=white)](https://github.com/konveyor/tackle2-operator/stargazers)
 - **License**: Apache-2.0
 - **Category**: Application Portfolio Assessment & Modernization Toolkit
 - **Overview**: An open-source application modernization and migration framework sponsored by Red Hat and the CNCF. Enables enterprises to assess entire application portfolios for container readiness and automated code refactoring.
 - **Key Features**: 7Rs decision framework, static code analysis for migration blockers, automated dependency identification, and wave management.
 
-### 10. **[Cloud Migration MCP Server](https://github.com/chrishorne74/cloud-migration-mcp)** [![GitHub stars](https://img.shields.io/github/stars/chrishorne74/cloud-migration-mcp?style=social&color=white)](https://github.com/chrishorne74/cloud-migration-mcp/stargazers)
+### 10. **[Cloud Migration MCP Server](https://github.com/chrishorne74/cloud-migration-mcp)** [![GitHub_Stars](https://img.shields.io/github/stars/chrishorne74/cloud-migration-mcp?style=social&color=white)](https://github.com/chrishorne74/cloud-migration-mcp/stargazers)
 - **License**: MIT
 - **Category**: AI-Assisted 7Rs Assessment & Migration Planning
 - **Overview**: Model Context Protocol (MCP) server enabling AI coding assistants (Claude Desktop, Cursor) to run structured 7Rs cloud migration strategy calculations, compliance guardrail checking, candidate scoring, and wave planning.
 - **Key Features**: 7Rs strategy engine, 10-criteria readiness scoring (0–100), 30+ guardrails, ROM cost estimation (±50%), and automated Draw.io architecture diagram generation.
 
-### 11. **[Skyferry](https://github.com/cubetribe/skyferry)** [![GitHub stars](https://img.shields.io/github/stars/cubetribe/skyferry?style=social&color=white)](https://github.com/cubetribe/skyferry/stargazers)
+### 11. **[Skyferry](https://github.com/cubetribe/skyferry)** [![GitHub_Stars](https://img.shields.io/github/stars/cubetribe/skyferry?style=social&color=white)](https://github.com/cubetribe/skyferry/stargazers)
 - **License**: MIT
 - **Category**: Enterprise File & Drive Migration
 - **Overview**: Rigorous, resumable Google Drive-to-Drive and bulk file migration utility built for high data volumes with zero data loss.
@@ -145,7 +145,7 @@ We welcome community contributions from cloud architects, engineers, and researc
 2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-migration-tool`).
 3. 📝 **Add or update entries** in `README.md` keeping formatting clean, factual, and backed by official links:
    - For SaaS tools: include starting tier pricing, free limits, and company scale.
-   - For Open-Source tools: include GitHub repository link, star badge, license, and primary capabilities.
+   - For Open-Source tools: include GitHub repository link, Stars_Badge, license, and primary capabilities.
 4. 🚀 **Commit your changes** (`git commit -m "feat: add NewMigrationTool"`).
 5. 📤 **Push to your branch** (`git push origin add-migration-tool`).
 6. 📬 **Submit a Pull Request** with a brief summary of the project.
